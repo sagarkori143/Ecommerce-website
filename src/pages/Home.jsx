@@ -39,7 +39,7 @@ return(
     {
       Loading ? (<Spinner/>):
         posts.length>0?(
-          <div className=" border-slate-200 rounded-[5px] w-[75%]  place-items-center grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 xsm:grid-cols-1 mx-auto ">{
+          <div className="border-slate-200 rounded-[5px] w-[75%]  place-items-center grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 xsm:grid-cols-1 mx-auto ">{
             posts.map((post)=>(
               
              <Product key={post.id} post={post}/> 
