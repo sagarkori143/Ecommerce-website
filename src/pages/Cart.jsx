@@ -16,7 +16,7 @@ const Cart = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     setpayment(true);
   };
-  const url="https://upiqr.in/api/qr?name=Sagar%20Kori&vpa=9917870933@paytm&amount="+totalAmount+".00";
+  const url="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=upi://pay?pa=9917870933@paytm&pn=SAGAR%20KORI&tr=452790581&amt=200&tn=Payment%20for%20SAGAR%20KORI&cu=INR";
   console.log(url)
   useEffect(() => {
     settotalAmount(Math.floor(cart.reduce((acc, curr) => acc + curr.price, 0)));
