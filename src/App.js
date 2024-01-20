@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Cart from "./pages/Cart";
 import Payment from "./pages/Payment";
@@ -8,7 +8,7 @@ import "./pages/bg.css";
 
 const App = () => {
   return (
-    <div className="kori">
+    <div >
       <Toaster />
       <div className="bg-slate-800 text-white">
         <Navbar />
@@ -20,7 +20,7 @@ const App = () => {
         <Route path="/Payment" element={<Payment />} />
       </Routes>
     </div>
-  ); 
+  );
 };
 
 export default App;
