@@ -1,97 +1,854 @@
 [
-    {  
-       "Header":"BestDeals",
-       "id":1,
-       "Content": [
-          {
-             "id": 1,
-             "title": "Men's Red shirt",
-             "description": "Very good material made from the best industries.",
-             "newprice": "3000",
-             "oldprice": "2800",
-             "discount": "7%"
+   {
+     "Header": "Best Deals",
+     "id": 1,
+     "Content": [
+       {
+         "id": 1,
+         "title": "Men's Red shirt",
+         "description": "Very good material made from the best industries.",
+         "image": "men_red_shirt.jpg",
+         "newprice": "3000",
+         "oldprice": "2800",
+         "discount": "7%"
+       },
+       {
+         "id": 2,
+         "title": "Boys T-shirt",
+         "description": "Top-notch fabric is used in this T-shirt.",
+         "image": "boys_tshirt.jpg",
+         "newprice": "400",
+         "oldprice": "360",
+         "discount": "10%"
+       },
+       {
+         "id": 3,
+         "title": "iQOO Z7 Pro 5G (Blue Lagoon, 8GB RAM, 256GB Storage)",
+         "description": "High-end smartphone with advanced features.",
+         "image": "https://m.media-amazon.com/images/I/61Id6WJDWqL._SX679_.jpg",
+         "newprice": "599.99",
+         "oldprice": "399.99",
+         "discount": "33.33%"
+       },
+       {
+         "id": 4,
+         "title": "Laptop",
+         "description": "Powerful laptop for work and gaming.",
+         "image": "laptop.jpg",
+         "newprice": "999.99",
+         "oldprice": "799.99",
+         "discount": "20%"
+       },
+       {
+         "id": 5,
+         "title": "Wireless Headphones",
+         "description": "Premium wireless headphones with noise-cancellation.",
+         "image": "headphones.jpg",
+         "newprice": "149.99",
+         "oldprice": "129.99",
+         "discount": "13.33%"
+       },
+       {
+         "id": 6,
+         "title": "Smartwatch",
+         "description": "Feature-packed smartwatch with fitness tracking.",
+         "image": "smartwatch.jpg",
+         "newprice": "199.99",
+         "oldprice": "179.99",
+         "discount": "10%"
+       },
+       {
+         "id": 7,
+         "title": "Professional DSLR Camera",
+         "description": "High-quality DSLR camera for photography enthusiasts.",
+         "image": "dslr_camera.jpg",
+         "newprice": "499.99",
+         "oldprice": "399.99",
+         "discount": "20%"
+       },
+       {
+         "id": 8,
+         "title": "Smart TV",
+         "description": "High-definition smart TV with built-in streaming apps.",
+         "image": "smart_tv.jpg",
+         "newprice": "799.99",
+         "oldprice": "599.99",
+         "discount": "25%"
+       },
+       {
+         "id": 9,
+         "title": "Tablet",
+         "description": "Compact tablet for productivity and entertainment.",
+         "image": "tablet.jpg",
+         "newprice": "299.99",
+         "oldprice": "249.99",
+         "discount": "16.67%"
+       },
+       {
+         "id": 10,
+         "title": "Gaming Console",
+         "description": "Next-gen gaming console for immersive gaming experiences.",
+         "image": "gaming_console.jpg",
+         "newprice": "399.99",
+         "oldprice": "349.99",
+         "discount": "12.5%"
+       },
+       {
+         "id": 11,
+         "title": "Energy-Efficient Refrigerator",
+         "description": "Modern refrigerator with energy-saving features.",
+         "image": "refrigerator.jpg",
+         "newprice": "599.99",
+         "oldprice": "499.99",
+         "discount": "16.67%"
+       },
+       {
+         "id": 12,
+         "title": "Energy-Efficient Refrigerator",
+         "description": "Modern refrigerator with energy-saving features.",
+         "image": "refrigerator.jpg",
+         "newprice": "599.99",
+         "oldprice": "499.99",
+         "discount": "16.67%"
+       },
+       {
+         "id": 13,
+         "title": "Energy-Efficient Refrigerator",
+         "description": "Modern refrigerator with energy-saving features.",
+         "image": "refrigerator.jpg",
+         "newprice": "599.99",
+         "oldprice": "499.99",
+         "discount": "16.67%"
+       },
+       {
+         "id": 14,
+         "title": "Energy-Efficient Refrigerator",
+         "description": "Modern refrigerator with energy-saving features.",
+         "image": "refrigerator.jpg",
+         "newprice": "599.99",
+         "oldprice": "499.99",
+         "discount": "16.67%"
+       },
+       {
+         "id": 15,
+         "title": "Energy-Efficient Refrigerator",
+         "description": "Modern refrigerator with energy-saving features.",
+         "image": "refrigerator.jpg",
+         "newprice": "599.99",
+         "oldprice": "499.99",
+         "discount": "16.67%"
+       }
+     ]
+   },
+   {
+      "Header": "Men's",
+     "id": 2,
+     "Content":[
+         {
+            "id": 16,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
           },
           {
-             "id": 2,
-             "title": "Boys T-shirt",
-             "description": "Top-notch fabric is used in this T-shirt.",
-             "newprice": "400",
-             "oldprice": "360",
-             "discount": "10%"
+            "id": 17,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
           },
           {
-             "id": 3,
-             "title": "Smartphone",
-             "description": "High-end smartphone with advanced features.",
-             "newprice": "599.99",
-             "oldprice": "399.99",
-             "discount": "33.33%"
+            "id": 18,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
           },
           {
-             "id": 4,
-             "title": "Laptop",
-             "description": "Powerful laptop for work and gaming.",
-             "newprice": "999.99",
-             "oldprice": "799.99",
-             "discount": "20%"
+            "id": 19,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
           },
           {
-             "id": 5,
-             "title": "Wireless Headphones",
-             "description": "Premium wireless headphones with noise-cancellation.",
-             "newprice": "149.99",
-             "oldprice": "129.99",
-             "discount": "13.33%"
+            "id": 20,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
           },
           {
-             "id": 6,
-             "title": "Smartwatch",
-             "description": "Feature-packed smartwatch with fitness tracking.",
-             "newprice": "199.99",
-             "oldprice": "179.99",
-             "discount": "10%"
+            "id": 21,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
           },
           {
-             "id": 7,
-             "title": "Professional DSLR Camera",
-             "description": "High-quality DSLR camera for photography enthusiasts.",
-             "newprice": "499.99",
-             "oldprice": "399.99",
-             "discount": "20%"
+            "id": 22,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
           },
           {
-             "id": 8,
-             "title": "Smart TV",
-             "description": "High-definition smart TV with built-in streaming apps.",
-             "newprice": "799.99",
-             "oldprice": "599.99",
-             "discount": "25%"
+            "id": 23,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
           },
           {
-             "id": 9,
-             "title": "Tablet",
-             "description": "Compact tablet for productivity and entertainment.",
-             "newprice": "299.99",
-             "oldprice": "249.99",
-             "discount": "16.67%"
+            "id": 24,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
           },
           {
-             "id": 10,
-             "title": "Gaming Console",
-             "description": "Next-gen gaming console for immersive gaming experiences.",
-             "newprice": "399.99",
-             "oldprice": "349.99",
-             "discount": "12.5%"
+            "id": 25,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
           },
           {
-             "id": 11,
+            "id": 26,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
+          },
+          {
+            "id": 27,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
+          },
+          {
+            "id": 28,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
+          },
+          {
+            "id": 29,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
+          },
+          {
+            "id": 30,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
+          }
+
+      ]
+   },
+   {
+     "Header": "Women's",
+     "id": 3,
+     "Content":[
+         {
+            "id": 31,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
+          },
+          {
+            "id": 32,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
+          },
+          {
+            "id": 33,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
+          },
+          {
+            "id": 34,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
+          },
+          {
+            "id": 35,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
+          },
+          {
+            "id": 36,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
+          },
+          {
+            "id": 37,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
+          },
+          {
+            "id": 38,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
+          },
+          {
+            "id": 39,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
+          },
+          {
+            "id": 40,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
+          },
+          {
+            "id": 41,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
+          },
+          {
+            "id": 42,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
+          },
+          {
+            "id": 43,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
+          },
+          {
+            "id": 44,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
+          },
+          {
+            "id": 45,
+            "title": "Energy-Efficient Refrigerator",
+            "description": "Modern refrigerator with energy-saving features.",
+            "image": "refrigerator.jpg",
+            "newprice": "599.99",
+            "oldprice": "499.99",
+            "discount": "16.67%"
+          }
+
+      ]
+   },
+   {
+      
+         "Header": "Kids",
+         "id": 1,
+         "Content": [
+           {
+             "id": 46,
              "title": "Energy-Efficient Refrigerator",
              "description": "Modern refrigerator with energy-saving features.",
+             "image": "refrigerator.jpg",
              "newprice": "599.99",
              "oldprice": "499.99",
              "discount": "16.67%"
-          }
-       ]
+           },
+           {
+             "id": 47,
+             "title": "Energy-Efficient Refrigerator",
+             "description": "Modern refrigerator with energy-saving features.",
+             "image": "refrigerator.jpg",
+             "newprice": "599.99",
+             "oldprice": "499.99",
+             "discount": "16.67%"
+           },
+           {
+             "id": 48,
+             "title": "Energy-Efficient Refrigerator",
+             "description": "Modern refrigerator with energy-saving features.",
+             "image": "refrigerator.jpg",
+             "newprice": "599.99",
+             "oldprice": "499.99",
+             "discount": "16.67%"
+           },
+           {
+             "id": 49,
+             "title": "Energy-Efficient Refrigerator",
+             "description": "Modern refrigerator with energy-saving features.",
+             "image": "refrigerator.jpg",
+             "newprice": "599.99",
+             "oldprice": "499.99",
+             "discount": "16.67%"
+           },
+           {
+             "id": 50,
+             "title": "Energy-Efficient Refrigerator",
+             "description": "Modern refrigerator with energy-saving features.",
+             "image": "refrigerator.jpg",
+             "newprice": "599.99",
+             "oldprice": "499.99",
+             "discount": "16.67%"
+           },
+           {
+             "id": 51,
+             "title": "Energy-Efficient Refrigerator",
+             "description": "Modern refrigerator with energy-saving features.",
+             "image": "refrigerator.jpg",
+             "newprice": "599.99",
+             "oldprice": "499.99",
+             "discount": "16.67%"
+           },
+           {
+             "id": 52,
+             "title": "Energy-Efficient Refrigerator",
+             "description": "Modern refrigerator with energy-saving features.",
+             "image": "refrigerator.jpg",
+             "newprice": "599.99",
+             "oldprice": "499.99",
+             "discount": "16.67%"
+           },
+           {
+             "id": 53,
+             "title": "Energy-Efficient Refrigerator",
+             "description": "Modern refrigerator with energy-saving features.",
+             "image": "refrigerator.jpg",
+             "newprice": "599.99",
+             "oldprice": "499.99",
+             "discount": "16.67%"
+           },
+           {
+             "id": 54,
+             "title": "Energy-Efficient Refrigerator",
+             "description": "Modern refrigerator with energy-saving features.",
+             "image": "refrigerator.jpg",
+             "newprice": "599.99",
+             "oldprice": "499.99",
+             "discount": "16.67%"
+           },
+           {
+             "id": 55,
+             "title": "Energy-Efficient Refrigerator",
+             "description": "Modern refrigerator with energy-saving features.",
+             "image": "refrigerator.jpg",
+             "newprice": "599.99",
+             "oldprice": "499.99",
+             "discount": "16.67%"
+           },
+           {
+             "id": 56,
+             "title": "Energy-Efficient Refrigerator",
+             "description": "Modern refrigerator with energy-saving features.",
+             "image": "refrigerator.jpg",
+             "newprice": "599.99",
+             "oldprice": "499.99",
+             "discount": "16.67%"
+           },
+           {
+             "id": 57,
+             "title": "Energy-Efficient Refrigerator",
+             "description": "Modern refrigerator with energy-saving features.",
+             "image": "refrigerator.jpg",
+             "newprice": "599.99",
+             "oldprice": "499.99",
+             "discount": "16.67%"
+           },
+           {
+             "id": 58,
+             "title": "Energy-Efficient Refrigerator",
+             "description": "Modern refrigerator with energy-saving features.",
+             "image": "refrigerator.jpg",
+             "newprice": "599.99",
+             "oldprice": "499.99",
+             "discount": "16.67%"
+           },
+           {
+             "id": 59,
+             "title": "Energy-Efficient Refrigerator",
+             "description": "Modern refrigerator with energy-saving features.",
+             "image": "refrigerator.jpg",
+             "newprice": "599.99",
+             "oldprice": "499.99",
+             "discount": "16.67%"
+           },
+           {
+             "id": 60,
+             "title": "Energy-Efficient Refrigerator",
+             "description": "Modern refrigerator with energy-saving features.",
+             "image": "refrigerator.jpg",
+             "newprice": "599.99",
+             "oldprice": "499.99",
+             "discount": "16.67%"
+           }
+          
+         ]
+   },
+   {
+     "Header": "Sports and Fitness",
+     "id": 5,
+     "Content":[
+      {
+         "id": 61,
+         "title": "Energy-Efficient Refrigerator",
+         "description": "Modern refrigerator with energy-saving features.",
+         "image": "refrigerator.jpg",
+         "newprice": "599.99",
+         "oldprice": "499.99",
+         "discount": "16.67%"
+       },
+       {
+         "id": 62,
+         "title": "Energy-Efficient Refrigerator",
+         "description": "Modern refrigerator with energy-saving features.",
+         "image": "refrigerator.jpg",
+         "newprice": "599.99",
+         "oldprice": "499.99",
+         "discount": "16.67%"
+       },
+       {
+         "id": 63,
+         "title": "Energy-Efficient Refrigerator",
+         "description": "Modern refrigerator with energy-saving features.",
+         "image": "refrigerator.jpg",
+         "newprice": "599.99",
+         "oldprice": "499.99",
+         "discount": "16.67%"
+       },
+       {
+         "id": 64,
+         "title": "Energy-Efficient Refrigerator",
+         "description": "Modern refrigerator with energy-saving features.",
+         "image": "refrigerator.jpg",
+         "newprice": "599.99",
+         "oldprice": "499.99",
+         "discount": "16.67%"
+       },
+       {
+         "id": 65,
+         "title": "Energy-Efficient Refrigerator",
+         "description": "Modern refrigerator with energy-saving features.",
+         "image": "refrigerator.jpg",
+         "newprice": "599.99",
+         "oldprice": "499.99",
+         "discount": "16.67%"
+       },
+       {
+         "id": 66,
+         "title": "Energy-Efficient Refrigerator",
+         "description": "Modern refrigerator with energy-saving features.",
+         "image": "refrigerator.jpg",
+         "newprice": "599.99",
+         "oldprice": "499.99",
+         "discount": "16.67%"
+       },
+       {
+         "id": 67,
+         "title": "Energy-Efficient Refrigerator",
+         "description": "Modern refrigerator with energy-saving features.",
+         "image": "refrigerator.jpg",
+         "newprice": "599.99",
+         "oldprice": "499.99",
+         "discount": "16.67%"
+       },
+       {
+         "id": 68,
+         "title": "Energy-Efficient Refrigerator",
+         "description": "Modern refrigerator with energy-saving features.",
+         "image": "refrigerator.jpg",
+         "newprice": "599.99",
+         "oldprice": "499.99",
+         "discount": "16.67%"
+       },
+       {
+         "id": 69,
+         "title": "Energy-Efficient Refrigerator",
+         "description": "Modern refrigerator with energy-saving features.",
+         "image": "refrigerator.jpg",
+         "newprice": "599.99",
+         "oldprice": "499.99",
+         "discount": "16.67%"
+       },
+       {
+         "id": 70,
+         "title": "Energy-Efficient Refrigerator",
+         "description": "Modern refrigerator with energy-saving features.",
+         "image": "refrigerator.jpg",
+         "newprice": "599.99",
+         "oldprice": "499.99",
+         "discount": "16.67%"
+       },
+       {
+         "id": 71,
+         "title": "Energy-Efficient Refrigerator",
+         "description": "Modern refrigerator with energy-saving features.",
+         "image": "refrigerator.jpg",
+         "newprice": "599.99",
+         "oldprice": "499.99",
+         "discount": "16.67%"
+       },
+       {
+         "id": 72,
+         "title": "Energy-Efficient Refrigerator",
+         "description": "Modern refrigerator with energy-saving features.",
+         "image": "refrigerator.jpg",
+         "newprice": "599.99",
+         "oldprice": "499.99",
+         "discount": "16.67%"
+       },
+       {
+         "id": 73,
+         "title": "Energy-Efficient Refrigerator",
+         "description": "Modern refrigerator with energy-saving features.",
+         "image": "refrigerator.jpg",
+         "newprice": "599.99",
+         "oldprice": "499.99",
+         "discount": "16.67%"
+       },
+       {
+         "id": 74,
+         "title": "Energy-Efficient Refrigerator",
+         "description": "Modern refrigerator with energy-saving features.",
+         "image": "refrigerator.jpg",
+         "newprice": "599.99",
+         "oldprice": "499.99",
+         "discount": "16.67%"
+       },
+       {
+         "id": 75,
+         "title": "Energy-Efficient Refrigerator",
+         "description": "Modern refrigerator with energy-saving features.",
+         "image": "refrigerator.jpg",
+         "newprice": "599.99",
+         "oldprice": "499.99",
+         "discount": "16.67%"
+       }
+      
+      ]
+   },
+   {
+      "Header": "You may also like",
+      "id": 6,
+      "Content": [
+        {
+          "id": 76,
+          "title": "Energy-Efficient Refrigerator",
+          "description": "Modern refrigerator with energy-saving features.",
+          "image": "refrigerator.jpg",
+          "newprice": "599.99",
+          "oldprice": "499.99",
+          "discount": "16.67%"
+        },
+        {
+          "id": 77,
+          "title": "Energy-Efficient Refrigerator",
+          "description": "Modern refrigerator with energy-saving features.",
+          "image": "refrigerator.jpg",
+          "newprice": "599.99",
+          "oldprice": "499.99",
+          "discount": "16.67%"
+        },
+        {
+          "id": 78,
+          "title": "Energy-Efficient Refrigerator",
+          "description": "Modern refrigerator with energy-saving features.",
+          "image": "refrigerator.jpg",
+          "newprice": "599.99",
+          "oldprice": "499.99",
+          "discount": "16.67%"
+        },
+        {
+          "id": 79,
+          "title": "Energy-Efficient Refrigerator",
+          "description": "Modern refrigerator with energy-saving features.",
+          "image": "refrigerator.jpg",
+          "newprice": "599.99",
+          "oldprice": "499.99",
+          "discount": "16.67%"
+        },
+        {
+          "id": 80,
+          "title": "Energy-Efficient Refrigerator",
+          "description": "Modern refrigerator with energy-saving features.",
+          "image": "refrigerator.jpg",
+          "newprice": "599.99",
+          "oldprice": "499.99",
+          "discount": "16.67%"
+        },
+        {
+          "id": 81,
+          "title": "Energy-Efficient Refrigerator",
+          "description": "Modern refrigerator with energy-saving features.",
+          "image": "refrigerator.jpg",
+          "newprice": "599.99",
+          "oldprice": "499.99",
+          "discount": "16.67%"
+        },
+        {
+          "id": 82,
+          "title": "Energy-Efficient Refrigerator",
+          "description": "Modern refrigerator with energy-saving features.",
+          "image": "refrigerator.jpg",
+          "newprice": "599.99",
+          "oldprice": "499.99",
+          "discount": "16.67%"
+        },
+        {
+          "id": 83,
+          "title": "Energy-Efficient Refrigerator",
+          "description": "Modern refrigerator with energy-saving features.",
+          "image": "refrigerator.jpg",
+          "newprice": "599.99",
+          "oldprice": "499.99",
+          "discount": "16.67%"
+        },
+        {
+          "id": 84,
+          "title": "Energy-Efficient Refrigerator",
+          "description": "Modern refrigerator with energy-saving features.",
+          "image": "refrigerator.jpg",
+          "newprice": "599.99",
+          "oldprice": "499.99",
+          "discount": "16.67%"
+        },
+        {
+          "id": 85,
+          "title": "Energy-Efficient Refrigerator",
+          "description": "Modern refrigerator with energy-saving features.",
+          "image": "refrigerator.jpg",
+          "newprice": "599.99",
+          "oldprice": "499.99",
+          "discount": "16.67%"
+        },
+        {
+          "id": 86,
+          "title": "Energy-Efficient Refrigerator",
+          "description": "Modern refrigerator with energy-saving features.",
+          "image": "refrigerator.jpg",
+          "newprice": "599.99",
+          "oldprice": "499.99",
+          "discount": "16.67%"
+        },
+        {
+          "id": 87,
+          "title": "Energy-Efficient Refrigerator",
+          "description": "Modern refrigerator with energy-saving features.",
+          "image": "refrigerator.jpg",
+          "newprice": "599.99",
+          "oldprice": "499.99",
+          "discount": "16.67%"
+        },
+        {
+          "id": 88,
+          "title": "Energy-Efficient Refrigerator",
+          "description": "Modern refrigerator with energy-saving features.",
+          "image": "refrigerator.jpg",
+          "newprice": "599.99",
+          "oldprice": "499.99",
+          "discount": "16.67%"
+        },
+        {
+          "id": 89,
+          "title": "Energy-Efficient Refrigerator",
+          "description": "Modern refrigerator with energy-saving features.",
+          "image": "refrigerator.jpg",
+          "newprice": "599.99",
+          "oldprice": "499.99",
+          "discount": "16.67%"
+        },
+        {
+          "id": 90,
+          "title": "Energy-Efficient Refrigerator",
+          "description": "Modern refrigerator with energy-saving features.",
+          "image": "refrigerator.jpg",
+          "newprice": "599.99",
+          "oldprice": "499.99",
+          "discount": "16.67%"
+        }
+      ]
     }
- ]
- 
+       
+]
