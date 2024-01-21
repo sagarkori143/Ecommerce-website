@@ -4,6 +4,7 @@ import Product from "../components/Product"
 import {Toaster} from "react-hot-toast"
 import error from "../components/error2.jpg"
 import { motion } from "framer-motion";
+import Navbar from "../components/Navbar";
 const Home = () => {
   const API_URL = "https://fakestoreapi.com/products";
 
@@ -32,6 +33,10 @@ useEffect(()=>{
 },[])
 
 return(
+  <div>
+     <div className="bg-slate-800 text-white">
+        <Navbar />
+      </div>
   <motion.div className="  w-screen grid place-items-center bg-white-200"
  
   >
@@ -53,6 +58,7 @@ return(
     }
     
   </motion.div>
+  </div>
 )
 };
 

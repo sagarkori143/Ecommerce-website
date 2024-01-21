@@ -1,0 +1,97 @@
+[
+    {  
+       "Header":"BestDeals",
+       "id":1,
+       "Content": [
+          {
+             "id": 1,
+             "title": "Men's Red shirt",
+             "description": "Very good material made from the best industries.",
+             "newprice": "3000",
+             "oldprice": "2800",
+             "discount": "7%"
+          },
+          {
+             "id": 2,
+             "title": "Boys T-shirt",
+             "description": "Top-notch fabric is used in this T-shirt.",
+             "newprice": "400",
+             "oldprice": "360",
+             "discount": "10%"
+          },
+          {
+             "id": 3,
+             "title": "Smartphone",
+             "description": "High-end smartphone with advanced features.",
+             "newprice": "599.99",
+             "oldprice": "399.99",
+             "discount": "33.33%"
+          },
+          {
+             "id": 4,
+             "title": "Laptop",
+             "description": "Powerful laptop for work and gaming.",
+             "newprice": "999.99",
+             "oldprice": "799.99",
+             "discount": "20%"
+          },
+          {
+             "id": 5,
+             "title": "Wireless Headphones",
+             "description": "Premium wireless headphones with noise-cancellation.",
+             "newprice": "149.99",
+             "oldprice": "129.99",
+             "discount": "13.33%"
+          },
+          {
+             "id": 6,
+             "title": "Smartwatch",
+             "description": "Feature-packed smartwatch with fitness tracking.",
+             "newprice": "199.99",
+             "oldprice": "179.99",
+             "discount": "10%"
+          },
+          {
+             "id": 7,
+             "title": "Professional DSLR Camera",
+             "description": "High-quality DSLR camera for photography enthusiasts.",
+             "newprice": "499.99",
+             "oldprice": "399.99",
+             "discount": "20%"
+          },
+          {
+             "id": 8,
+             "title": "Smart TV",
+             "description": "High-definition smart TV with built-in streaming apps.",
+             "newprice": "799.99",
+             "oldprice": "599.99",
+             "discount": "25%"
+          },
+          {
+             "id": 9,
+             "title": "Tablet",
+             "description": "Compact tablet for productivity and entertainment.",
+             "newprice": "299.99",
+             "oldprice": "249.99",
+             "discount": "16.67%"
+          },
+          {
+             "id": 10,
+             "title": "Gaming Console",
+             "description": "Next-gen gaming console for immersive gaming experiences.",
+             "newprice": "399.99",
+             "oldprice": "349.99",
+             "discount": "12.5%"
+          },
+          {
+             "id": 11,
+             "title": "Energy-Efficient Refrigerator",
+             "description": "Modern refrigerator with energy-saving features.",
+             "newprice": "599.99",
+             "oldprice": "499.99",
+             "discount": "16.67%"
+          }
+       ]
+    }
+ ]
+ 
