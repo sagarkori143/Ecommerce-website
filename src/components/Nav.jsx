@@ -53,10 +53,10 @@ const Nav = () => {
           >
             <div className="px-4 py-3">
               <span className="block text-sm text-gray-900 dark:text-white">
-                Bonnie Green
+                Sagar Kori
               </span>
               <span className="block text-sm text-gray-500 truncate dark:text-gray-400">
-                name@flowbite.com
+                skori@gmail.com
               </span>
             </div>
             <ul className="py-2" aria-labelledby="user-menu-button">
