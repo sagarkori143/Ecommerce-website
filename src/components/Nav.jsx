@@ -1,10 +1,32 @@
 import React, { useState } from "react";
+import { useRef } from "react";
+import { useEffect } from "react";
 import logo from "../assets/logo.png";
 import cart from "../assets/cart.png";
-import profile from "../assets/profile.png"
+import profile from "../assets/profile.png";
+import { useNavigate } from "react-router";
 
 const Nav = () => {
+  const navigate = useNavigate();
   const [isUserDropdownOpen, setIsUserDropdownOpen] = useState(false);
+  const userDropdownRef = useRef(null);
+  const handleClickOutside = (event) => {
+    // Check if the click is outside the user dropdown
+    if (
+      userDropdownRef.current &&
+      !userDropdownRef.current.contains(event.target)
+    ) {
+      setIsUserDropdownOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [userDropdownRef]); 
 
   const toggleUserDropdown = () => {
     setIsUserDropdownOpen(!isUserDropdownOpen);
@@ -22,17 +44,18 @@ const Nav = () => {
             ShopHere
           </span>
         </a>
-        <div className="flex items-center gap-7 md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <a
-            href="#"
-            className="block py-2 ml-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+        <div className="flex items-center gap-7 md:order-2 space-x-3 md:space-x-0  rtl:space-x-reverse">
+          <button
+            onClick={() => navigate("/cart")}
+            className="flex items-center"
           >
             <img src={cart} className="h-8" alt="ShopHere Logo" />
-          </a>
+          </button>
+
           <button
             type="button"
             onClick={toggleUserDropdown}
-            className="flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+            className="flex text-sm  rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
             id="user-menu-button"
             aria-expanded={isUserDropdownOpen}
             data-dropdown-toggle="user-dropdown"
@@ -46,17 +69,19 @@ const Nav = () => {
             />
           </button>
           <div
-            className={`absolute top-full right-0 ${
+            className={`absolute top-full right-3 ${
               isUserDropdownOpen ? "block" : "hidden"
-            } z-50 my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600`}
+            } z-50 my-[-10px] text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600`}
             id="user-dropdown"
+            ref={userDropdownRef} // Attach the ref to the user dropdown element
+            onClick={(e) => e.stopPropagation()} // Prevent the dropdown from closing when clicked
           >
-            <div className="px-4 py-3">
+            <div className="px-4 py-2">
               <span className="block text-sm text-gray-900 dark:text-white">
-                Bonnie Green
+                Sagar Kori
               </span>
               <span className="block text-sm text-gray-500 truncate dark:text-gray-400">
-                name@flowbite.com
+                skori@gmail.com
               </span>
             </div>
             <ul className="py-2" aria-labelledby="user-menu-button">
@@ -94,6 +119,7 @@ const Nav = () => {
               </li>
             </ul>
           </div>
+
           <button
             data-collapse-toggle="navbar-user"
             type="button"
