@@ -4,7 +4,7 @@ const productSchema = new mongoose.Schema({
   title: {
     required: true,
     type: String,
-    maxlength: 20,
+    maxlength: 100,
   },
   price: {
     required: true,
@@ -15,7 +15,7 @@ const productSchema = new mongoose.Schema({
   description: {
     required: true,
     type: String,
-    maxlength: 100,
+    maxlength: 200,
   },
   mainImage: {
     required: true,
